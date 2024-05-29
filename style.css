@@ -339,16 +339,25 @@ body{
     display: block;
 
   }
-  .toggle-menu{
-    background-color: white;
-    width: 100px;
+    .toggle-menu{
+    background-color:grey;
+    height:160px ;
+    width: 110px;
     display: none;
+    position: absolute;
+    line-height: 40px;
+
   }
+
   .nav-link a{
     display: flex;
     border: none;
 
   }
+    .home-page{
+    height: 480px;
+  }
+
 
   .home-grid{
     display: grid;
@@ -359,7 +368,7 @@ body{
   .two,
   .three{
     border-radius:20px ;
-    left: 165px;
+    left: 705px;
   }
   .close{
     margin-left:-40px ;
@@ -386,9 +395,11 @@ body{
     width: 20px;
     
   }
-  .home-bg{
-    height: 60vh;
+    .home-bg{
+    background: url(/home-bg.jpg) no-repeat center center/cover;
+    height: 60vh ;
   }
+
 
   .home-page p{
     background-color: rgb(0,0,0, 0.8);
