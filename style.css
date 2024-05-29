@@ -1,0 +1,436 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size:20px ;
+
+}
+
+ .topHeader img{
+  width: 30px;
+  padding-top: 5px;
+}
+
+.topHeader{
+  display: flex;
+  justify-content:space-between ;
+  background: #87CEEB;
+  height:30px ;
+  align-items: center;
+  color: white;
+
+}
+.topHeader P{
+  font-size:18px ;
+  padding-right:7px ;
+}
+
+.nav-link{
+  background:gray;
+  text-align: center;
+  padding: 6px;
+
+
+}
+.nav-link a{
+  text-decoration: none;
+  color:#87CEEB ;
+  margin-right: 50px;
+  padding:0 7px;
+
+  
+}
+
+.border-radius{
+  border:#87CEEB 1px solid ;
+  border-radius:5px ;
+
+}
+
+.home-bg{
+  background: url(/home-bg.jpg) no-repeat center center/cover;
+  height: 80vh
+
+  
+  ;
+}
+
+.home-page {
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;}
+
+
+  .home-page p{
+    background-color: rgb(0,0,0, 0.8);
+    padding: 10px  6px;
+    line-height:23px ;
+    border-radius: 20px;
+
+  }
+
+  .small{
+    font-size: 19px;
+    margin-left: 12px;
+  
+  }
+
+  .why{
+    margin-top:3px ;
+    text-align: center;
+  }
+  .why h3{
+    font-size: 23px;
+    color: brown;
+    margin-bottom: 20px;
+
+
+  }
+  .why h4{
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .why p{
+    font-size: 15px;
+  }
+  .home-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5px;
+    
+  }
+  .blue-grid{
+    background-color:#6fc0e0;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .number{
+    position: relative;
+  }
+  .one{
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    color: white;
+    background-color:brown ;
+    font-weight: 500;
+    width: 40px;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  
+  .two{
+    position: absolute;
+    top: -23px;
+    left: 47%;
+    color: white;
+    background-color:brown ;
+    font-weight: 500;
+    width: 40px;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .three{
+    position: absolute;
+    top: -23px;
+    left: 50%;
+    color: white;
+    background-color:brown ;
+    font-weight: 500;
+    width: 40px;
+    height: 30px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  #About h1{
+    color: brown;
+    text-align: center;
+  }
+
+  footer{
+    font-size: 14px;
+    background-color: black;
+    text-align: center;
+    color: #ccc;
+  flex: none;
+  }
+
+  
+
+  .experience-grid{
+    display: flex;
+    background-color: #6fc0e0;
+    padding: 8px 22px;
+
+
+  }
+  .experience{
+    text-align: center;
+    
+  
+  }
+
+  .experience-img img{
+    width: 200px;
+    height: 170px;
+    border-radius: 55%;
+  }
+
+.bold{
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.experience li{
+  list-style:circle ;
+  text-align: left;
+  font-size: 16px;
+  padding:3px  0;
+}
+.ceo{
+  text-align: center;
+}
+
+
+
+
+.cert-grid img
+{
+  width: 220px;
+  height: 150px;
+}
+
+.cert-img-grid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.cert-grid p{
+  text-align: center;
+  color: brown;
+  padding: 4px;
+  font-size: 17px;
+}
+
+.twitter img{
+  width: 20px;
+  height: 20px;
+}
+
+#contact-section{
+  background-color: white;
+}
+
+.contact-bgImage{
+  background:url(./contact.jpg)no-repeat center center/cover;
+  height: 250px;
+}
+
+.contact-grid-display{
+  background-color: black;
+  
+}
+.contact-grid-display h2{
+  color: #87CEEB;
+  text-align: center;
+}
+
+.contact-grid{
+  display: grid;
+  grid-template-columns:repeat(2,1fr) ;
+  padding: 10px;
+  grid-gap:10px;
+  color: white;
+}
+.contact-grid a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact-grid li{
+ list-style: none;
+}
+
+.contact1, .contact-links{
+  border:1px #6fc0e0 solid;
+  padding: 12px;
+  text-align: center;
+
+}
+
+
+
+.contact-links h2{
+ font-size: 25px;
+}
+.contact1 i {
+  color: #87CEEB;
+}
+
+.contact-icon{
+  margin-bottom: 10px;
+}
+
+
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:7px 10px;
+  margin-bottom: 7px;
+  width: 97%;
+}
+.twitter a{
+  color: black;
+
+
+}
+.twitter{
+  background-color: white;
+  width: 97%;
+
+
+}
+
+.whatsapp a{
+  background-color: green;
+}
+
+.facebook a{
+  background-color: blue;
+}
+
+.instagram a{
+  background-color: pink;
+}
+ 
+.bars,
+.times{
+  display: none;
+}
+
+
+@media screen and (max-width:600px){
+  .nav-link{
+    display: block;
+
+  }
+  .toggle-menu{
+    background-color: white;
+    width: 100px;
+    display: none;
+  }
+  .nav-link a{
+    display: flex;
+    border: none;
+
+  }
+
+  .home-grid{
+    display: grid;
+    grid-template-columns:1fr;
+    row-gap: 15px;
+  }
+  .one,
+  .two,
+  .three{
+    border-radius:20px ;
+    left: 165px;
+  }
+  .close{
+    margin-left:-40px ;
+  }
+
+  .contact-grid{
+    display:grid ;
+    grid-template-columns:1fr ;
+  
+
+  }
+  .bars{
+    margin-left:5px ;
+    display:block ;
+  background-color: aliceblue;
+  width: 30px;
+  }
+  .times{
+    display: block;
+    color: white;
+    display: flex;
+    background-color:black ;
+    text-align: center;
+    width: 20px;
+    
+  }
+  .home-bg{
+    height: 60vh;
+  }
+
+  .home-page p{
+    background-color: rgb(0,0,0, 0.8);
+    padding: 22px 6px;
+    line-height:24px ;
+    border-radius: 20px;
+  }
+
+  .home-bg .p1{
+    line-height: 30px;
+  }
+
+  .experience-grid{
+    display: block;
+  }
+  .experience-img img{
+    border-radius:0 ;
+    width: 80%;
+    margin: auto;
+    display: block;
+  }
+
+  .cert-img-grid{
+    display: grid;
+    column-gap:0 ;
+    grid-template-columns:1fr;
+  
+  }
+
+  .cert-grid img
+{
+  width: 98%;
+  height: 150px;
+}
+.name{
+  text-align: center;
+}
+  
+  
+
+
+ 
+
+}
+  
