@@ -383,10 +383,10 @@ padding:20px 30px;}
 
   }
   .bars{
-    margin-left:5px ;
+    margin-left:10px ;
     display:block ;
   background-color: aliceblue;
-  width: 30px;
+  width: 40px;
   }
   .back{
     color:white;}
@@ -395,9 +395,9 @@ padding:20px 30px;}
     display: block;
     color: white;
     display: flex;
-    background-color:black ;
     text-align: center;
     width: 20px;
+    margin-top:20px
   }
 
   .experience-grid{
