@@ -391,7 +391,7 @@ padding:20px 30px;}
   background-color: aliceblue;
   width: 40px;
   }
-  .back{
+  .times{
     color:white;
     margin-left:15px;
     display:block;
@@ -439,7 +439,7 @@ padding:20px 30px;}
   align-items: center;
   height: 400px;}
   
-.nav i{
+.nav a i{
 top:20px;
 color:green;}
 
