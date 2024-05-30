@@ -1,5 +1,5 @@
 const menu = document.querySelector('.toggle-menu')
-const closeIcon = document.querySelector('.times')
+const closeIcon = document.querySelector('.back')
 const dropDown = document.querySelector('.bars')
 
 
