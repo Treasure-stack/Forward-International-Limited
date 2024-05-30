@@ -357,9 +357,7 @@ padding:20px 30px;}
     border: none;
 
   }
-    .home-page{
-    height: 480vh;
-  }
+    
 
 
   .home-grid{
@@ -440,6 +438,24 @@ padding:20px 30px;}
 .name{
   text-align: center;
 }
+  .home-bg{
+  background: url(/home-bg.jpg) no-repeat center center/cover;
+  height: 80vh
+
+  
+  ;
+}
+
+.home-page {
+  color: white;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 360px;}
+
+
+
   
   
 
