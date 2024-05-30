@@ -54,7 +54,7 @@ padding:20px 30px;}
 }
 
 .home-bg{
-  background: url(/home-bg.jpg) no-repeat center center/cover;
+  background: url(./home-bg.jpg) no-repeat center center/cover;
   height: 80vh
 
   
