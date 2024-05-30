@@ -362,6 +362,7 @@ padding:20px 30px;}
     display: flex;
     border: none;
     align-items:center;
+    font-size:25px;
 
   }
     
@@ -397,8 +398,8 @@ padding:20px 30px;}
   .times{
     color:white;
     margin-top:3px;
-    margin-left:12px;
-    margin-right:8px;
+    margin-left:10px;
+    margin-right:6px;
     display:block;
 }
 
