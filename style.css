@@ -10,7 +10,7 @@ body{
 
 }
 .container{
-padding:20px;}
+padding:20px 50px;}
 
  .topHeader img{
   width: 30px;
@@ -358,7 +358,7 @@ padding:20px;}
 
   }
     .home-page{
-    height: 480px;
+    height: 480vh;
   }
 
 
