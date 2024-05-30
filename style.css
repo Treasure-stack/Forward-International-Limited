@@ -447,7 +447,9 @@ padding:20px 30px;}
 
 .back{
 color:white;
-display:flex;}
+display:flex;
+  font-size: 25px;
+}
 
 
 
