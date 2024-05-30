@@ -354,6 +354,7 @@ padding:20px 30px;}
     line-height: 3.7em;
     opacity:0.9;
     vertical-alignment:center;
+    z-index:1;
 
   }
 
@@ -374,7 +375,7 @@ padding:20px 30px;}
   .two,
   .three{
     border-radius:20px ;
-    left: 250px;
+    left: 200px;
   }
   .close{
     margin-left:-40px ;
@@ -401,7 +402,8 @@ padding:20px 30px;}
     display: flex;
     text-align: center;
     width: 20px;
-    margin-top:20px
+    margin-top:10px
+    margin-left:15px
   }
 
   .experience-grid{
@@ -443,7 +445,7 @@ padding:20px 30px;}
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 350px;}
+  height: 400px;}
 
 
 
