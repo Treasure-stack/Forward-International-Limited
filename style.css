@@ -395,16 +395,16 @@ padding:20px 30px;}
   width: 40px;
   }
   .back{
-    color:white;}
+    color:white;
+    margin-top:10px
+    margin-left:15px
+}
 
   .times{
     display: block;
     color: white;
     display: flex;
     text-align: center;
-    width: 20px;
-    margin-top:10px
-    margin-left:15px
   }
 
   .experience-grid{
