@@ -386,10 +386,11 @@ padding:20px 30px;}
 
   }
   .bars{
+    color:#6fc0e0;
     margin-top:3px;
     margin-left:5px ;
     display:block ;
-  background-color: aliceblue;
+  background-color: black;
   width: 40px;
   }
   .times{
