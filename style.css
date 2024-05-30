@@ -332,7 +332,8 @@ padding:20px 30px;}
 }
  
 .bars,
-.times{
+.times,
+.back{
   display: none;
 }
 
