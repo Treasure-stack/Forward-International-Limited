@@ -388,6 +388,9 @@ padding:20px 30px;}
   background-color: aliceblue;
   width: 30px;
   }
+  .back{
+    color:white;}
+
   .times{
     display: block;
     color: white;
