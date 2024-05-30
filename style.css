@@ -348,7 +348,7 @@ padding:20px 30px;}
     width: 110px;
     display: none;
     position: absolute;
-    line-height: 30px;
+    line-height: 40px;
     opacity:0.9;
 
   }
@@ -370,7 +370,7 @@ padding:20px 30px;}
   .two,
   .three{
     border-radius:20px ;
-    left: 400px;
+    left: 300px;
   }
   .close{
     margin-left:-40px ;
